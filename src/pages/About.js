@@ -4,6 +4,8 @@ function About(props) {
   
   const [about, setAbout] = useState(null);
 
+  useEffect(() => {
+
   const getAboutData = async () => {
     
     const response = await fetch(props.URL + "about");
@@ -13,7 +15,8 @@ function About(props) {
     setAbout(data);
   };
 
-  useEffect(() => getAboutData(), []);
+   getAboutData()
+  }, [props.URL]);
 
   const loaded = () => (
     <div>
@@ -25,10 +28,10 @@ function About(props) {
       <br />
       <p>{about.bioThree}</p>
       <div>
-        <img src={about.imageOne} />
+        <img src={about.imageOne} alt='' />
       </div>
       <div>
-        <img src={about.imageTwo} />
+        <img src={about.imageTwo} alt='' />
       </div>
     </div>
   );
