@@ -39,20 +39,23 @@
 
 .project-img {
   border-radius: 10%;
-  height: 280px;
-  width: 280px;
+  height: 300px;
+  width: 300px;
 }
 
 .project-names {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .projects-order {
   display: inline-block;
-  padding: 35px;
+  padding: 60px;
 }
 
 .desc {
-  font-size: 18px;
-  line-break: normal;
+  font-size: 15px;
+  width: 300px;
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
 }
