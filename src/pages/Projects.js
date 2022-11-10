@@ -21,6 +21,8 @@ function Projects(props) {
       <div className= 'projects-order' key={project.name}>
         <h1 className="project project-names">{project.name}</h1>
         <img className="project-img" src={project.image} alt='' />
+        <p className="desc">{project.desc}</p>
+        <p>{project.skills}</p>
         <div>
             <a href={project.git}>
           <button className="gitbtn">Github</button>
