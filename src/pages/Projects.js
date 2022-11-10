@@ -18,10 +18,9 @@ function Projects(props) {
 
   const loaded = () => {
     return projects?.map((project) => (
-      <div key={project.name}>
-        <h1 className="project">{project.name}</h1>
+      <div className= 'projects-order' key={project.name}>
+        <h1 className="project project-names">{project.name}</h1>
         <img className="project-img" src={project.image} alt='' />
-       
         <div>
             <a href={project.git}>
           <button className="gitbtn">Github</button>
@@ -30,8 +29,7 @@ function Projects(props) {
           <button className="herokubtn">Live Site</button>
         </a>
         </div>
-        
-      </div>
+        </div>
     ));
   };
 
