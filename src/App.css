@@ -59,3 +59,19 @@
   word-wrap: break-word; 
   word-break: break-word;
 }
+
+.herokubtn {
+  border: none;
+  border-radius: 20%;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.gitbtn {
+  border: none;
+  border-radius: 20%;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
