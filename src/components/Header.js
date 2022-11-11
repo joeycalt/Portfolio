@@ -12,19 +12,17 @@ function Header(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="https://github.com/joeycalt">
+              <img src='https://i.im.ge/2022/11/11/SlLGym.imagesqtbnANd9GcSGuWrfLHbMlkXKF8uj7G7Bs98zmNZVW26YgRmGktRA3ws.png' height='40px' width='40px' alt='' />
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="https://www.linkedin.com/in/joey-caltabellotta/">
+              <img src= 'https://i.im.ge/2022/11/11/SlUuYG.imagesqtbnANd9GcSN0osVQcblBhUadmcs7iFmZXdRR7iNA8QWJAusqpCAU.png' height='40px' width='40px' alt= '' />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
