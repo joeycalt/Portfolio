@@ -117,3 +117,29 @@
       opacity:2;
   }
 }
+
+.golf-img {
+  height: 400px;
+  width: 250px;
+  margin: auto;
+}
+
+.ravioli-img {
+  height: 350px;
+  width: 400px;
+}
+
+.about-info-top {
+  font-weight: 500;
+  font-size: 22px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-info-bottom {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

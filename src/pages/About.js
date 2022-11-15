@@ -22,17 +22,15 @@ function About(props) {
     <div>
       <h2>{about.name}</h2>
       <h3>{about.email}</h3>
-      <p>{about.bioOne}</p>
-      <br />
-      <p>{about.bioTwo}</p>
-      <br />
-      <p>{about.bioThree}</p>
-      <div>
-        <img src={about.imageOne} alt='' />
+      <p className="about-info-top">
+      <img className= 'golf-img' src={about.imageOne} alt='' />
+      {about.bioOne}
+      {about.bioTwo}
+      <div className="about-info-bottom">
+      {about.bioThree}
+      <img className= 'ravioli-img' src={about.imageTwo} alt='' />
       </div>
-      <div>
-        <img src={about.imageTwo} alt='' />
-      </div>
+      </p>
     </div>
   );
 
