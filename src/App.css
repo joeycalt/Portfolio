@@ -119,14 +119,34 @@
 }
 
 .golf-img {
-  height: 400px;
-  width: 250px;
+  height: 460px;
+  width: 280px;
   margin: auto;
+  margin-top: 105px;
+  border: none;
+  border-radius: 10%;
+  animation: slide-right 10s;
+}
+
+@keyframes slide-right {
+  from {
+    margin-right: 100%;
+    width: 280px; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 290px;
+  }
 }
 
 .ravioli-img {
-  height: 350px;
-  width: 400px;
+  height: 290px;
+  width: 330px;
+  margin: auto;
+  margin-top: 130px;
+  border: none;
+  border-radius: 10%;
 }
 
 .about-info-top {
@@ -134,12 +154,30 @@
   font-size: 22px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  line-height: 40px;
+}
+
+.p-1 {
+  margin-top: 105px;
+  animation: slide-left 10s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .about-info-bottom {
   font-weight: 500;
   font-size: 22px;
-  margin-top: 40px;
+  margin-top: 130px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }

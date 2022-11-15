@@ -24,12 +24,14 @@ function About(props) {
       <h3>{about.email}</h3>
       <p className="about-info-top">
       <img className= 'golf-img' src={about.imageOne} alt='' />
-      {about.bioOne}
-      {about.bioTwo}
+      <div className="p-1">
+        {about.bioOne}
+        {about.bioTwo}
+      </div>
       <div className="about-info-bottom">
       {about.bioThree}
-      <img className= 'ravioli-img' src={about.imageTwo} alt='' />
       </div>
+      <img className= 'ravioli-img' src={about.imageTwo} alt='' />
       </p>
     </div>
   );
