@@ -19,10 +19,10 @@ function Header(props) {
           </Nav>
           <Nav>
             <Nav.Link href="https://github.com/joeycalt">
-            <Github />
+            <Github className='mygit' />
             </Nav.Link>
             <Nav.Link eventKey={2} href="https://www.linkedin.com/in/joey-caltabellotta/">
-            <Linkedin />
+            <Linkedin className='mylink' />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
