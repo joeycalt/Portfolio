@@ -70,11 +70,40 @@
 .herokubtn {
   margin: 10px;
   cursor: pointer;
+  background-color: white;
+  color: black;
+  background-image: -webkit-linear-gradient(30deg, white 50%, transparent 50%);
+  background-image: linear-gradient(30deg, white 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+
+.herokubtn:hover {
+  background-position: 100%;
+  color: white;
 }
 
 .gitbtn {
   margin: 10px;
   cursor: pointer;
+  color: white;
+  background-color: black;
+  background-image: -webkit-linear-gradient(30deg, black 50%, transparent 50%);
+  background-image: linear-gradient(30deg, black 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+
+.gitbtn:hover {
+  background-position: 100%;
+  color: black;
+  background-color: white;
 }
 
 .main-title {
