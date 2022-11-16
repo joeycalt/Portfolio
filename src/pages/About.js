@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Spinner from 'react-bootstrap/Spinner';
 
 function About(props) {
   
@@ -36,7 +37,7 @@ function About(props) {
     </div>
   );
 
-  return about ? loaded() : <h1>Loading...</h1>;
+  return about ? loaded() : <Spinner className='spinner' animation="grow" />;
 }
 
 export default About;

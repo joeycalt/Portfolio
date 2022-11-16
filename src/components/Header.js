@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import {Github, Linkedin} from 'react-bootstrap-icons'
 
 function Header(props) {
     return (
@@ -18,10 +19,10 @@ function Header(props) {
           </Nav>
           <Nav>
             <Nav.Link href="https://github.com/joeycalt">
-              <img src='https://i.im.ge/2022/11/11/SlLGym.imagesqtbnANd9GcSGuWrfLHbMlkXKF8uj7G7Bs98zmNZVW26YgRmGktRA3ws.png' height='40px' width='40px' alt='' />
+            <Github />
             </Nav.Link>
             <Nav.Link eventKey={2} href="https://www.linkedin.com/in/joey-caltabellotta/">
-              <img src= 'https://i.im.ge/2022/11/11/SlUuYG.imagesqtbnANd9GcSN0osVQcblBhUadmcs7iFmZXdRR7iNA8QWJAusqpCAU.png' height='40px' width='40px' alt= '' />
+            <Linkedin />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

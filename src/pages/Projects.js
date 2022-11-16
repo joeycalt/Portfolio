@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Spinner from 'react-bootstrap/Spinner';
+import Button from 'react-bootstrap/Button';
 
 function Projects(props) {
   const [projects, setProjects] = useState(null);
@@ -25,17 +27,17 @@ function Projects(props) {
         <p>{project.skills}</p>
         <div>
             <a href={project.git}>
-          <button className="gitbtn">Github</button>
+          <Button className="gitbtn" variant="dark">Github</Button>
         </a>
         <a href={project.live}>
-          <button className="herokubtn">Live Site</button>
+          <Button className="herokubtn" variant="dark">Live Site</Button>
         </a>
         </div>
         </div>
     ));
   };
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+  return projects ? loaded() : <Spinner className='spinner' animation="grow" />;
 }
 
 export default Projects;
