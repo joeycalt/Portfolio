@@ -7,7 +7,7 @@ import {Github, Linkedin} from 'react-bootstrap-icons'
 function Header(props) {
     return (
       <>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" expand="lg">
       <Container>
         <Navbar.Brand href="/">JOEY_CALT</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
