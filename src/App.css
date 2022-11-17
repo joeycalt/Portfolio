@@ -319,3 +319,10 @@ html {
 .main-button:hover {
   background-color: rgb(136, 255, 136);
 }
+
+.my-image {
+  border-radius: 10%;
+  height: 400px;
+  width: 400px;
+  margin-top: 50px;
+}
