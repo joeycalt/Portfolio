@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+
 function Main(props) {
     return (
       <>
@@ -8,6 +10,9 @@ function Main(props) {
         </div>
         <br />
         <h4 className="second-title">Check out what I've made!</h4>
+        <a href='/projects'>
+        <Button className= 'main-button' variant= "outline-success">Check out my work!</Button>
+        </a>
       </>
     )
   }
