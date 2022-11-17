@@ -122,7 +122,7 @@ html {
   margin: 0;
   white-space: nowrap;
   border-right: .15em solid white;
-  animation: typing 2s linear 1s 1 normal both, animated-cursor 600ms linear infinite;
+  animation: typing 2s linear 1s 1 normal both, blinking 900ms linear infinite;
 }
 
 .wrapper-title {
@@ -149,11 +149,11 @@ html {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 57% }
 }
 @keyframes blinking {
   from { border-color: transparent }
-  to { border-color: orange; }
+  to { border-color: white; }
 }
 
 
@@ -270,6 +270,7 @@ html {
 
 .title {
   color: rgb(136, 255, 136);
+  width:fit-content;
   font-size: 90px;
   text-align: left;
   margin-left: 210px;
@@ -277,5 +278,10 @@ html {
   border-right: .15em solid white;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 2s linear 1s 1 normal both, animated-cursor 600ms linear infinite;
+  animation: typing-about 2s linear 1s 1 normal both, blinking 900ms linear infinite;
+}
+
+@keyframes typing-about {
+  from { width: 0 }
+  to { width: 43% }
 }
