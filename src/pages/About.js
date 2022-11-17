@@ -21,9 +21,7 @@ function About(props) {
 
   const loaded = () => (
     <div>
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <h1>P̶l̶u̶m̶b̶e̶r̶ Coder</h1>
+      <h1 className="title">P̶l̶u̶m̶b̶e̶r̶ Coder</h1>
       <p className="about-info-top">
       <img className= 'golf-img' src={about.imageOne} alt='' />
       <div className="p-1">
