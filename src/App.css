@@ -116,7 +116,7 @@ html {
 }
 
 .main-title {
-  font-size: 40px;
+  font-size: 60px;
   color: white;
   overflow: hidden;
   margin: 0;
@@ -133,7 +133,7 @@ html {
 }
 
 .greeting {
-  font-size: 14px;
+  font-size: 18px;
   color: rgb(136, 255, 136);
   margin-top: 100px;
   text-align: left;
@@ -145,7 +145,7 @@ html {
 }
 
 .name {
-  font-size: 24px;
+  font-size: 40px;
   color: rgb(136, 255, 136);
   font-weight: 600;
   text-align: left;
@@ -159,7 +159,7 @@ html {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 62% }
+  to { width: 92% }
 }
 @keyframes blinking {
   from { border-color: transparent }
@@ -168,12 +168,12 @@ html {
 
 @keyframes typing-1 {
   from { width: 0 }
-  to { width: 7% }
+  to { width: 9% }
 }
 
 @keyframes typing-2 {
   from { width: 0 }
-  to { width: 14% }
+  to { width: 23% }
 }
 
 .second-title {
@@ -263,6 +263,12 @@ html {
   color: white;
   height: 20px;
   width: 20px;
+}
+
+.home {
+  color: rgb(136, 255, 136);
+  height: 40px;
+  width: 40px;
 }
 
 .mylink {

@@ -2,14 +2,16 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import {Github, Linkedin} from 'react-bootstrap-icons'
+import {Github, Linkedin, House} from 'react-bootstrap-icons'
 
 function Header(props) {
     return (
       <>
         <Navbar bg="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/">JOEY_CALT</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <House className='home' />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
