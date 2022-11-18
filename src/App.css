@@ -249,7 +249,7 @@ html {
   font-size: 30px;
   font-weight: 300;
   margin-top: 30px;
-  text-align: left;
+  text-align: center;
   padding: 20px;
   color: rgb(136, 255, 136);
 }
@@ -323,21 +323,32 @@ html {
 }
 
 .my-image {
-  border-radius: 10%;
-  height: 400px;
-  width: 400px;
+  border-radius: 3%;
+  height: 300px;
+  width: 300px;
   margin-top: 50px;
   float: right;
   margin-top: -300px;
-  margin-right: 50px;
+  margin-right: 80px;
+  filter: drop-shadow(30px 10px 4px black)
 }
 
 .footer {
   color:rgb(136, 255, 136);
   font-size: 17px;
   font-weight: 300;
-  position: absolute;
+  position:absolute;
+  left:0;
   bottom:0;
-  margin-left: 620px;
+  right:0;
+}
+
+.contact-title-top {
+  color:rgb(136, 255, 136);
+  margin-top: 170px;
+}
+
+.contact-title-bottom {
+  color: white;
 }
 
