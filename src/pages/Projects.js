@@ -24,7 +24,7 @@ function Projects(props) {
         <h1 className="project project-names">{project.name}</h1>
         <img className="project-img" src={project.image} alt='' />
         <p className="desc">{project.desc}</p>
-        <p>{project.skills}</p>
+        <p className="skills">{project.skills}</p>
         <div>
             <a href={project.git}>
           <Button className="gitbtn" variant="dark">Github</Button>

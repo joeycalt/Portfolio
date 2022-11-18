@@ -64,7 +64,7 @@ html {
 
 .projects-order {
   display: inline-block;
-  padding: 60px;
+  padding: 30px;
 }
 
 .desc {
@@ -352,5 +352,14 @@ html {
 
 .contact-title-bottom {
   color: white;
+}
+
+.contact {
+  color: white;
+}
+
+.skills {
+  color:rgb(136, 255, 136);
+  font-weight: 600;
 }
 
