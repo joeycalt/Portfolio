@@ -45,9 +45,10 @@ html {
 }
 
 .project-img {
-  height: 900px;
-  width: 600px;
   animation: fadeIn ease 3s;
+  background-size: cover;
+  height: 250px;
+  background: transparent no-repeat center;
 }
 
 @keyframes fadeIn {
