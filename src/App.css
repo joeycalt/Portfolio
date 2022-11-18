@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(33,37,41);
 }
 
 html {
   height: 100%;
   width: 100%;
-  background-color: rgb(38, 38, 38);
+  background-color :rgb(33,37,41);
 }
 
 .App-logo {
@@ -116,7 +116,7 @@ html {
 }
 
 .main-title {
-  font-size: 60px;
+  font-size: 35px;
   color: white;
   overflow: hidden;
   margin: 0;
@@ -129,15 +129,15 @@ html {
 .wrapper-title {
   display:flex;
   justify-content: left;
-  margin-left: 200px;
+  margin-left: 50px;
 }
 
 .greeting {
-  font-size: 18px;
+  font-size: 15px;
   color: rgb(136, 255, 136);
-  margin-top: 100px;
+  margin-top: 170px;
   text-align: left;
-  margin-left: 200px;
+  margin-left: 50px;
   overflow: hidden;
   white-space: nowrap;
   border-right: .15em solid white;
@@ -145,11 +145,11 @@ html {
 }
 
 .name {
-  font-size: 40px;
+  font-size: 20px;
   color: rgb(136, 255, 136);
   font-weight: 600;
   text-align: left;
-  margin-left: 200px;
+  margin-left: 50px;
   overflow: hidden;
   white-space: nowrap;
   border-right: .15em solid white;
@@ -159,7 +159,7 @@ html {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 92% }
+  to { width: 48.3% }
 }
 @keyframes blinking {
   from { border-color: transparent }
@@ -168,12 +168,12 @@ html {
 
 @keyframes typing-1 {
   from { width: 0 }
-  to { width: 9% }
+  to { width: 7.4% }
 }
 
 @keyframes typing-2 {
   from { width: 0 }
-  to { width: 23% }
+  to { width: 12% }
 }
 
 .second-title {
@@ -314,6 +314,8 @@ html {
 .main-button {
   color: rgb(136, 255, 136);
   padding: 10px;
+  float: left;
+  margin-left: 300px;
 }
 
 .main-button:hover {
@@ -325,4 +327,17 @@ html {
   height: 400px;
   width: 400px;
   margin-top: 50px;
+  float: right;
+  margin-top: -300px;
+  margin-right: 50px;
 }
+
+.footer {
+  color:rgb(136, 255, 136);
+  font-size: 17px;
+  font-weight: 300;
+  position: absolute;
+  bottom:0;
+  margin-left: 620px;
+}
+
