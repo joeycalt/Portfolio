@@ -12,6 +12,7 @@ function App() {
   const URL = 'https://real-portfolio-back.herokuapp.com/'
   return (
     <div className="App">
+      <div>
       <Header />
       <Routes>
         <Route exact path ='/' element={<Main />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About URL={URL} />} />
         <Route path="/contact" element={<Contact URL={URL} />} />
       </Routes>
+      </div>
       <Footer />
     </div>
   );
