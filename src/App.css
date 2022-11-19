@@ -364,6 +364,10 @@ html {
   margin-top: 40px;
 }
 
+span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 500, 0, 1.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e")
+}
+
 @media only screen and (max-width: 844px) {
   .main-title {
     font-size: 15px;
@@ -383,7 +387,7 @@ html {
   }
   
   .greeting {
-    font-size: 10px;
+    font-size: 14px;
     color: rgb(136, 255, 136);
     margin-top: 70px;
     text-align: left;
@@ -395,7 +399,7 @@ html {
   }
   
   .name {
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 20px;
     color: rgb(136, 255, 136);
     font-weight: 600;
@@ -418,12 +422,12 @@ html {
   
   @keyframes typing-1 {
     from { width: 0 }
-    to { width: 19% }
+    to { width: 25% }
   }
   
   @keyframes typing-2 {
     from { width: 0 }
-    to { width: 28% }
+    to { width: 33.7% }
   }
 
   .my-image {
@@ -432,7 +436,7 @@ html {
     width: 130px;
     filter: drop-shadow(30px 10px 4px black);
     margin-top: 120px;
-    margin-right: 150px;
+    margin-right: 140px;
   }
 
   .main-button {
@@ -518,6 +522,39 @@ html {
     text-align: center;
     padding: 20px;
     color: rgb(136, 255, 136);
+  }
+
+  .project-img {
+    animation: fadeIn ease 3s;
+    background-size: cover;
+    height: 200px;
+    background: transparent no-repeat center;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  .project-names {
+    font-size: 35px;
+    color: rgb(136, 255, 136);
+    margin-top: 50px;
+  }
+  
+  .projects-order {
+    display: inline-block;
+    padding: 0!important;
+  }
+
+  .desc {
+    font-size: 15px;
+    width: 360px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+    color: white;
+    margin-top: 40px;
   }
 }
 
