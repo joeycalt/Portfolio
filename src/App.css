@@ -509,7 +509,7 @@ span.navbar-toggler-icon {
 
   .title {
     color: rgb(136, 255, 136);
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -519,7 +519,7 @@ span.navbar-toggler-icon {
   
   @keyframes typing-about {
     from { width: 0 }
-    to { width: 35% }
+    to { width: 73% }
   }
 
   .info {
@@ -563,5 +563,10 @@ span.navbar-toggler-icon {
     color: white;
     margin-top: 40px;
   }
-}
 
+  .contact-words {
+    padding-top: 80px;
+    font-size: 20px;
+    margin: 0;
+  }
+}
