@@ -447,6 +447,7 @@ span.navbar-toggler-icon {
     filter: drop-shadow(30px 10px 4px black);
     margin-top: 90px;
     margin-right: 140px;
+    margin-bottom: 50px;
   }
 
   .main-button {
