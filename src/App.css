@@ -364,3 +364,151 @@ html {
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 844px) {
+  .main-title {
+    font-size: 15px;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    white-space: nowrap;
+    border-right: .15em solid white;
+    animation: typing 4s linear 1s 1 normal both, blinking 900ms linear infinite;
+    animation-delay: 5s;
+  }
+  
+  .wrapper-title {
+    margin-left: 20px;
+    display:flex;
+    justify-content: left;
+  }
+  
+  .greeting {
+    font-size: 10px;
+    color: rgb(136, 255, 136);
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid white;
+    animation: typing-1 2s linear 1s 1 normal both, blinking 900ms linear infinite;
+  }
+  
+  .name {
+    font-size: 12px;
+    margin-left: 20px;
+    color: rgb(136, 255, 136);
+    font-weight: 600;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid white;
+    animation: typing-2 2s linear 1s 1 normal both, blinking 900ms linear infinite;
+    animation-delay: 3s;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 85% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: white; }
+  }
+  
+  @keyframes typing-1 {
+    from { width: 0 }
+    to { width: 19% }
+  }
+  
+  @keyframes typing-2 {
+    from { width: 0 }
+    to { width: 28% }
+  }
+
+  .my-image {
+    border-radius: 3%;
+    height: 130px;
+    width: 130px;
+    filter: drop-shadow(30px 10px 4px black);
+    margin-top: 120px;
+    margin-right: 150px;
+  }
+
+  .main-button {
+    color: rgb(136, 255, 136);
+    padding: 10px;
+    float: left;
+    margin-left: 20px;
+    font-size: 13px;
+  }
+
+  .golf-img {
+    height: 300px;
+    width: 150px;
+    margin: auto;
+    margin-top: 105px;
+    border: none;
+    border-radius: 10%;
+    animation: fadeIn ease 3s;
+    margin-left: 20px;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  .ravioli-img {
+    height: 190px;
+    width: 290px;
+    margin: auto;
+    margin-top: 130px;
+    border: none;
+    border-radius: 10%;
+    animation: fadeIn ease 3s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  .about-info-top {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgb(136, 255, 136);
+    margin-right: 50px;
+  }
+  
+  .p-1 {
+    margin-top: 105px;
+    color: rgb(136, 255, 136);
+    font-size: 18px;
+  }
+  
+  .about-info-bottom {
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 130px;
+    color: rgb(136, 255, 136);
+    margin-left: 50px;
+    line-height: 45px;
+  }
+
+  .title {
+    color: rgb(136, 255, 136);
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-right: .15em solid white;
+    animation: typing-about 2s linear 1s 1 normal both, blinking 900ms linear infinite;
+  }
+  
+  @keyframes typing-about {
+    from { width: 0 }
+    to { width: 70% }
+  }
+}
+
