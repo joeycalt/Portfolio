@@ -1,5 +1,3 @@
-import {Twitter, Instagram, Facebook, Snapchat} from 'react-bootstrap-icons';
-
 function Footer(props) {
     return (
       <>
