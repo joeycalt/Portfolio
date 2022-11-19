@@ -9,9 +9,9 @@ function Contact(props) {
         <div className='info'>
         <GeoAltFill className='contact' /> Great River, NY
         <br />
-        <PhoneFill className='contact' /> 631-889-4226
+        <PhoneFill className='contact' /> <a className='intouch' href='tel:631-889-4226'>631-889-4226</a>
         <br />
-        <EnvelopeCheckFill className='contact' /> caltabellottajoey@gmail.com
+        <EnvelopeCheckFill className='contact' /> <a className='intouch' href= 'mailto: caltabellottajoey@gmail.com'>caltabellottajoey@gmail.com</a>
         </div>
       </>
     )

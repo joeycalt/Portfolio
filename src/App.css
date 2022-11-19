@@ -343,7 +343,7 @@ html {
   color:rgb(136, 255, 136);
   font-size: 17px;
   font-weight: 300;
-  margin-top: 50vh;
+  margin-top: 35vh;
 }
 
 .contact-title-top {
@@ -356,6 +356,15 @@ html {
 }
 
 .contact {
+  color: white;
+}
+
+.intouch {
+  text-decoration: none;
+  color:rgb(136, 255, 136);
+}
+
+.intouch:hover {
   color: white;
 }
 
@@ -449,9 +458,8 @@ span.navbar-toggler-icon {
   }
 
   .golf-img {
-    height: 200px;
-    width: 110px;
-    margin-right: 400px;
+    height: 230px;
+    width: 160px;
     margin-top: 105px;
     border: none;
     border-radius: 10%;
@@ -464,13 +472,11 @@ span.navbar-toggler-icon {
   }
   
   .ravioli-img {
-    height: 110px;
-    width: 140px;
+    height: 160px;
+    width: 190px;
     border: none;
     border-radius: 10%;
     animation: fadeIn ease 3s;
-    margin-top: -2020px;
-    margin-right: -175px;
   }
   
   @keyframes fadeIn {
