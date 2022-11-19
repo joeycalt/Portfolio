@@ -284,7 +284,8 @@ html {
 }
 
 .nav-link:hover {
-  color: white!important;
+  color: rgb(136, 255, 136);
+  border-bottom: 1px solid white;
 }
 
 .navbar-brand {
