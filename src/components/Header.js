@@ -18,10 +18,10 @@ function Header(props) {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="https://github.com/joeycalt">
+            <Nav.Link href="https://github.com/joeycalt" target="_blank">
             <Github className='mygit' />
             </Nav.Link>
-            <Nav.Link eventKey={2} href="https://www.linkedin.com/in/joey-caltabellotta/">
+            <Nav.Link eventKey={2} href="https://www.linkedin.com/in/joey-caltabellotta/" target="_blank">
             <Linkedin className='mylink' />
             </Nav.Link>
           </Nav>

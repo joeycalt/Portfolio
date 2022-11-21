@@ -26,10 +26,10 @@ function Projects(props) {
         <p className="desc">{project.desc}</p>
         <p className="skills">{project.skills}</p>
         <div>
-            <a href={project.git}>
+            <a href={project.git} target="_blank">
           <Button className="gitbtn" variant="dark">Github</Button>
         </a>
-        <a href={project.live}>
+        <a href={project.live} target="_blank">
           <Button className="herokubtn" variant="dark">Live Site</Button>
         </a>
         </div>
