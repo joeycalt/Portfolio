@@ -329,6 +329,19 @@ html {
   border-color: white;
 }
 
+.about-button {
+  color: rgb(136, 255, 136);
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 110px;
+}
+
+.about-button:hover {
+  color: white;
+  background-color: rgb(33,37,41);
+  border-color: white;
+}
+
 .my-image {
   border-radius: 3%;
   height: 270px;
