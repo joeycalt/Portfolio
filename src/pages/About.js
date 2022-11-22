@@ -33,6 +33,7 @@ function About(props) {
       </div>
       <img className= 'ravioli-img' src={about.imageTwo} alt='' />
       </p>
+      <a href="Joey-Caltabellotta-Resume-2022.pdf" target="_blank" rel="noreferrer" type="application/pdf" media="print">Resume</a>
     </div>
   );
 
