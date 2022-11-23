@@ -34,7 +34,7 @@ function About(props) {
       </div>
       <img className= 'ravioli-img' src={about.imageTwo} alt='' />
       </p>
-      <a href="https://pdfhost.io/v/NGTu3pHqN_JoeyCaltabellottaResume2022" target="_blank" rel="noreferrer" type="application/pdf" media="print">
+      <a href="https://pdfhost.io/v/XBWXd59ET_JoeyCaltabellottaResume2022" target="_blank" rel="noreferrer" type="application/pdf" media="print">
       <Button className= 'about-button' variant= "outline-success">Check out my resume</Button>
       </a>
     </div>
