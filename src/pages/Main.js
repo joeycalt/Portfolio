@@ -8,6 +8,7 @@ function Main(props) {
       <div className="wrapper-title">
         <h1 className="main-title">I'm a Frontend Developer by day... and night</h1>
         </div>
+        <p className='main-about'>I am a Front-End Developer with a background in customer service and problem solving. I have a strong foundation in communication while collaborating on projects. I thrive on solving problems and using my skill set in React, JavaScript, and Node.js.</p>
         <br />
         <h4 className="second-title">Check out what I've made!</h4>
         <a href='/projects'>

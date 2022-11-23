@@ -129,6 +129,29 @@ html {
   animation-delay: 5s;
 }
 
+.main-about {
+  color: white;
+  text-align: left;
+  width: 40%;
+  margin-left: 120px;
+  margin-top: 50px;
+  opacity: 0;
+  animation-name: slowlyIn;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 9.5s;
+  font-size: 17px;
+}
+
+@keyframes slowlyIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .wrapper-title {
   display:flex;
   justify-content: left;
@@ -357,9 +380,8 @@ html {
   border-radius: 3%;
   height: 270px;
   width: 270px;
-  margin-top: 50px;
   float: right;
-  margin-top: -300px;
+  margin-top: -390px;
   margin-right: 190px;
   filter: drop-shadow(30px 10px 4px black)
 }
