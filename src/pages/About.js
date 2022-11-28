@@ -27,6 +27,9 @@ function About(props) {
       <img className= 'golf-img' src={about.imageOne} alt='' />
       <div className="p-1">
         {about.bioOne}
+        <br />
+        </div>
+        <div className="about-info-bottom">
         {about.bioTwo}
       </div>
       <div className="about-info-bottom">
