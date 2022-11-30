@@ -28,8 +28,6 @@ function About(props) {
       <div className="p-1">
         {about.bioOne}
         <br />
-        </div>
-        <div className="about-info-bottom">
         {about.bioTwo}
       </div>
       <div className="about-info-bottom">
