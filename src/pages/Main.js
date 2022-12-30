@@ -15,7 +15,7 @@ function Main(props) {
         <Button className= 'main-button' variant= "outline-success">Check out my work!</Button>
         </a>
         <br />
-        <img className='my-image' src='https://i.im.ge/2022/11/18/SSm52D.5-7-22-Kristin-Danny-Chateau-Briand-Photos.jpg' alt=''></img>
+        <img className='my-image' src='https://i.im.ge/2022/12/30/qWsmUc.5-7-22-Kristin-Danny-Chateau-Briand-Photos.jpg' alt=''></img>
       </>
     )
   }

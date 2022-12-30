@@ -378,12 +378,11 @@ html {
 
 .my-image {
   border-radius: 3%;
-  height: 270px;
-  width: 270px;
+  height: 300px;
+  width: 300px;
   float: right;
   margin-top: -390px;
   margin-right: 190px;
-  filter: drop-shadow(30px 10px 4px black)
 }
 
 .footer {
