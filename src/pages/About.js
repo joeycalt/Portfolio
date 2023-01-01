@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import { useState, useEffect } from "react";
 import Spinner from 'react-bootstrap/Spinner';
+import { ArrowRight } from 'react-bootstrap-icons';
 
 function About(props) {
   
@@ -22,21 +23,19 @@ function About(props) {
 
   const loaded = () => (
     <div>
-      <h1 className="title">P̶l̶u̶m̶b̶e̶r̶ Coder</h1>
+      <h1 className="title"><span className='plumber'>Plumber</span> <ArrowRight></ArrowRight> <strong>Coder</strong></h1>
       <p className="about-info-top">
-      <img className= 'golf-img' src={about.imageOne} alt='' />
+      <img className= 'about-img' src={about.imageOne} alt='' height='500px' width='450px' />
       <div className="p-1">
         {about.bioOne}
         <br />
-        {about.bioTwo}
+        <p className='biotwo'>{about.bioTwo}</p>
+        
+        <p className='biotwo'>{about.bioThree}</p>
       </div>
-      <div className="about-info-bottom">
-      {about.bioThree}
-      </div>
-      <img className= 'ravioli-img' src={about.imageTwo} alt='' />
       </p>
       <a href="https://pdfhost.io/v/XBWXd59ET_JoeyCaltabellottaResume2022" target="_blank" rel="noreferrer" type="application/pdf" media="print">
-      <Button className= 'about-button' variant= "outline-success">Check out my resume</Button>
+      <Button className= 'about-button' variant= "outline-success">My resume</Button>
       </a>
     </div>
   );
