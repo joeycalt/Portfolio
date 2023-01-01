@@ -350,7 +350,7 @@ html {
   color: rgb(138, 255, 138);
   padding: 10px 60px 10px 60px;
   float: left;
-  margin-top: 0px;
+  margin-top: 40px;
   margin-left: 200px;
   font-size: 20px;
 }
@@ -367,6 +367,7 @@ html {
   margin-left: 175px;
   padding: 10px 60px 10px 60px;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .about-button:hover {
@@ -441,6 +442,7 @@ span.navbar-toggler-icon {
     float: left;
     margin-left: 50px;
     font-size: 20px;
+    margin-top: 40px;
   }
 
   .about-button {
