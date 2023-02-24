@@ -27,10 +27,10 @@ function Projects(props) {
         <p className="skills">{project.skills}</p>
         <div>
             <a href={project.git} target="_blank" rel="noreferrer">
-          <Button className="gitbtn" variant="dark">Github</Button>
+          <Button className="gitbtn" variant="dark outline-success rounded-pill">Github</Button>
         </a>
         <a href={project.live} target="_blank" rel="noreferrer">
-          <Button className="herokubtn" variant="dark">Live Site</Button>
+          <Button className="herokubtn" variant="dark outline-success rounded-pill">Live Site</Button>
         </a>
         </div>
         </div>

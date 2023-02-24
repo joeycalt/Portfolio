@@ -20,7 +20,7 @@ function Header(props) {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
             <Nav.Link className='resume-button' href="https://pdfhost.io/v/XBWXd59ET_JoeyCaltabellottaResume2022" target="_blank" rel="noreferrer" type="application/pdf" media="print">
-            <Button className= 'resume-button' variant= "outline-success">My resume</Button>
+            <Button className= 'resume-button' variant= "outline-success rounded-pill">My resume</Button>
               </Nav.Link>
           <Nav>
             <Nav.Link href="https://github.com/joeycalt" target="_blank" rel="noreferrer">
